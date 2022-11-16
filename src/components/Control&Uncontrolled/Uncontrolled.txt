@@ -1,0 +1,20 @@
+https://www.youtube.com/watch?v=E28TNQ9eK50&list=PLgeETUaEEds5HE2uGWezJxYeZwpBonHr-&index=3
+
+** Uncontrolled Components **
+
+Components that keep track of their own states and release data
+only when some event occurs. (That is, the submit event for HTML forms).
+
+        eg:
+
+    const MyComponent = ({onSubmit}) => {
+        const [ someState, setState ] = useState(...)
+
+        return ...
+    }
+
+
+** Control Components **
+Components that do not keep track of their own state -- all state is passed in as
+props ( that is, when we use the useState hook with the text inputs).
+
