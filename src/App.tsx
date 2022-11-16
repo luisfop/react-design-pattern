@@ -1,11 +1,12 @@
 import react from 'react';
+import LayoutModule from './components/LayoutComponents/LayoutModule';
 
 function App() {
 
 
   return (
-    <h1>React Design Patterns</h1>
-  )
+    <LayoutModule/>
+      )
 }
 
-export default App
+      export default App
