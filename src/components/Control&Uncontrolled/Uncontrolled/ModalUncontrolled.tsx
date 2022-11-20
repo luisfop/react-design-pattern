@@ -20,6 +20,11 @@ padding: 20px;
 width: 50%auto;
 `;
 
+//Uncontrolled: Parent component has none control of this component. Eg to open and close the modal.
+
+// On Controlled components, parents pass the property to open/close the modal
+
+
 const ModalUncontrolled = ({ children }: { children: JSX.Element }) => {
 
     const [shouldShow, setShouldShow] = useState(false);
