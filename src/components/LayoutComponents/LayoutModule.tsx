@@ -1,4 +1,5 @@
 import React from 'react'
+import Modal from './Modal'
 import SplitScreen from './SplitScreen'
 
 
@@ -13,10 +14,13 @@ const RightComponentExample = () => {
 const LayoutModule = () => {
     return (
         <div>
-            <SplitScreen leftSpace={1} rightSpace={2}>
+            {/* <SplitScreen leftSpace={1} rightSpace={2}>
                 <LeftComponentExample />
                 <RightComponentExample />
-            </SplitScreen>
+            </SplitScreen> */}
+
+            <hr/>
+            <Modal />
         </div>
     )
 }
